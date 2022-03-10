@@ -53,8 +53,6 @@ You can also use {{jsxref("Functions/arguments", "arguments")}} for the `argsArr
 
 Since ECMAScript 5th Edition, you can also use any kind of object which is array-like. In practice, this means it's going to have a `length` property, and integer ("index") properties in the range `(0..length - 1)`. For example, you could use a {{domxref("NodeList")}}, or a custom object like `{ 'length': 2, '0': 'eat', '1': 'bananas' }`.
 
-> **Note:** Many older browsers—including Chrome <17 and Internet Explorer <9—don't accept array-like objects, and will throw an exception.
-
 ## Examples
 
 ### Using apply to append an array to another
